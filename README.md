@@ -44,7 +44,7 @@ Currently exploring and building:
 
 I am always eager to connect with fellow builders, engineers, data enthusiasts, and AI explorers. Feel free to explore my projects and reach out for discussions, feedback, or collaboration.
 
-[My Book List](https://github.com/jbgithub22/my-book-list/tree/main)
+### [My Book List](https://github.com/jbgithub22/my-book-list/tree/main)
 
 ---
 
