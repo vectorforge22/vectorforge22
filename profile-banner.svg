@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">VectorForge22 — build across disciplines</title>
+  <desc id="desc">An original retro game inspired night scene. A tiny builder travels from architecture and manufacturing through data terrain toward an AI beacon while a vector forge glows beneath the VectorForge22 title.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="0.62" stop-color="#0a2c3a"/>
+      <stop offset="1" stop-color="#0a4550"/>
+    </linearGradient>
+    <linearGradient id="forgeGlow" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ff6b35" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ff8a3d" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="titleFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#effff8"/>
+      <stop offset="0.54" stop-color="#7ee8e1"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+    <pattern id="pixels" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="#b9fff1" opacity="0.18"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1280" height="1" fill="#d9fff8" opacity="0.035"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="viewport"><rect width="1280" height="360" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#viewport)">
+    <rect width="1280" height="360" fill="url(#sky)"/>
+    <rect width="1280" height="360" fill="url(#pixels)"/>
+
+    <!-- distant grid: a blueprint world becoming a data landscape -->
+    <g fill="none" stroke="#53cfc4" stroke-width="1" opacity="0.18">
+      <path d="M0 248H1280M0 268H1280M0 288H1280M0 308H1280"/>
+      <path d="M80 215L34 320M160 215L132 320M240 215L230 320M320 215L328 320M400 215L426 320M480 215L524 320M560 215L622 320M640 215L720 320M720 215L818 320M800 215L916 320M880 215L1014 320M960 215L1112 320M1040 215L1210 320M1120 215L1280 302"/>
+    </g>
+
+    <!-- stars and drifting code particles -->
+    <g fill="#b8fff1" opacity="0.7">
+      <rect x="82" y="48" width="3" height="3"/><rect x="168" y="83" width="2" height="2"/>
+      <rect x="276" y="38" width="4" height="4"/><rect x="998" y="55" width="3" height="3"/>
+      <rect x="1084" y="96" width="2" height="2"/><rect x="1190" y="42" width="4" height="4"/>
+      <rect x="930" y="126" width="2" height="2"/><rect x="375" y="116" width="2" height="2"/>
+    </g>
+    <g fill="#65d6cc" opacity="0.26" font-family="monospace" font-size="10">
+      <text x="28" y="98">10110</text><text x="1110" y="148">&lt;path/&gt;</text><text x="1020" y="80">01101</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 10;0 0" dur="8s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- left: blueprint architecture and fabrication -->
+    <g opacity="0.78">
+      <path d="M0 236H86V144H130V236H178V112H226V236H284V164H328V236" fill="#0b3441" stroke="#3aa99f" stroke-width="3"/>
+      <path d="M12 224h62v-48H12zm184 0h18v-24h-18zm0-38h18v-24h-18zm0-38h18v-24h-18zm100 76h18v-38h-18z" fill="#133e49" stroke="#66dbd0" stroke-width="2"/>
+      <path d="M91 144l17-28 17 28M180 112l22-31 22 31M284 164l21-25 21 25" fill="none" stroke="#70eee0" stroke-width="2"/>
+      <path d="M18 201h50M102 158v66M120 158v66M230 180h43" stroke="#d4fff7" stroke-width="2" stroke-dasharray="5 6" opacity="0.5"/>
+    </g>
+
+    <!-- right: data ridges and AI beacon -->
+    <g opacity="0.82">
+      <path d="M892 237l57-55 39 25 55-72 45 40 49-67 83 129z" fill="#0b3a48" stroke="#41bcb1" stroke-width="3"/>
+      <path d="M920 237l42-36 31 22 50-65 43 40 50-66 45 105z" fill="#0c4a56" stroke="#76e7dc" stroke-width="2" opacity="0.8"/>
+      <path d="M948 182v-24M988 207v-42M1043 135V91M1088 175v-58M1137 108V64M1180 172v-84" stroke="#49c9bd" stroke-width="4"/>
+      <g fill="#d9fff7" filter="url(#tinyGlow)">
+        <rect x="944" y="151" width="8" height="8"/><rect x="984" y="158" width="8" height="8"/>
+        <rect x="1039" y="84" width="8" height="8"/><rect x="1084" y="110" width="8" height="8"/>
+        <rect x="1133" y="56" width="8" height="8"/><rect x="1176" y="80" width="8" height="8"/>
+      </g>
+      <circle cx="1137" cy="56" r="22" fill="none" stroke="#79f2e5" stroke-width="2" opacity="0.35">
+        <animate attributeName="r" values="18;34;18" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".5;0;.5" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- forge at the center of the journey -->
+    <rect x="520" y="96" width="242" height="188" fill="url(#forgeGlow)" opacity="0.8"/>
+    <g transform="translate(640 239)">
+      <path d="M-62 9h124l-15 25h-94z" fill="#102e38" stroke="#75e7db" stroke-width="3"/>
+      <path d="M-34 7l13-26h42L34 7z" fill="#142e37" stroke="#ffd166" stroke-width="3"/>
+      <path d="M-13-19L0-44l13 25z" fill="#ff7849" stroke="#ffd166" stroke-width="2" filter="url(#tinyGlow)">
+        <animate attributeName="d" values="M-13-19L0-44l13 25z;M-11-19L2-52l11 33z;M-13-19L0-44l13 25z" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-54 38h108" stroke="#061923" stroke-width="7"/>
+    </g>
+    <g fill="#ffd166" filter="url(#tinyGlow)">
+      <rect x="626" y="197" width="4" height="4"><animate attributeName="y" values="197;154;197" dur="2.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.1s" repeatCount="indefinite"/></rect>
+      <rect x="646" y="202" width="3" height="3"><animate attributeName="y" values="202;168;202" dur="1.6s" begin=".4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.6s" begin=".4s" repeatCount="indefinite"/></rect>
+      <rect x="658" y="200" width="5" height="5"><animate attributeName="y" values="200;146;200" dur="2.4s" begin=".8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.4s" begin=".8s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- primary identity -->
+    <g text-anchor="middle">
+      <text x="640" y="67" fill="#75e7db" font-family="monospace" font-size="14" font-weight="700" letter-spacing="5">PLAYER // BUILDER // SYSTEMS THINKER</text>
+      <text x="640" y="135" fill="url(#titleFill)" stroke="#061821" stroke-width="8" paint-order="stroke" font-family="monospace" font-size="64" font-weight="900" letter-spacing="2">VECTORFORGE22</text>
+      <text x="640" y="160" fill="#b9fff1" font-family="monospace" font-size="13" font-weight="700" letter-spacing="4">BUILD ACROSS DISCIPLINES</text>
+    </g>
+
+    <!-- level path -->
+    <path d="M0 282H1280" stroke="#071923" stroke-width="22"/>
+    <path d="M0 273H1280" stroke="#72e7dc" stroke-width="2" opacity="0.7"/>
+    <path d="M0 287H1280" stroke="#1b5b64" stroke-width="3" stroke-dasharray="20 12"/>
+
+    <!-- tiny original builder sprite -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="40 0;1160 0" dur="14s" repeatCount="indefinite"/>
+      <g transform="translate(0 235)">
+        <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -3;0 0" dur=".46s" repeatCount="indefinite"/>
+        <rect x="0" y="6" width="14" height="14" fill="#ffd166"/>
+        <rect x="3" y="9" width="3" height="3" fill="#071923"/><rect x="10" y="9" width="3" height="3" fill="#071923"/>
+        <rect x="-3" y="20" width="20" height="18" fill="#e9fff9"/>
+        <rect x="0" y="23" width="14" height="4" fill="#ff7849"/>
+        <rect x="-7" y="22" width="4" height="14" fill="#72e7dc"/><rect x="17" y="22" width="4" height="14" fill="#72e7dc"/>
+        <rect x="0" y="38" width="6" height="12" fill="#3aa99f"><animate attributeName="x" values="-2;4;-2" dur=".46s" repeatCount="indefinite"/></rect>
+        <rect x="10" y="38" width="6" height="12" fill="#3aa99f"><animate attributeName="x" values="12;6;12" dur=".46s" repeatCount="indefinite"/></rect>
+        <path d="M21 20l8-8 4 4-8 8z" fill="#ff7849"/>
+        <path d="M28 10l8-8 4 4-8 8z" fill="#ffd166" filter="url(#tinyGlow)"/>
+      </g>
+    </g>
+
+    <!-- HUD -->
+    <g font-family="monospace" font-size="12" font-weight="700">
+      <path d="M22 20h246l12 12v32H22z" fill="#061923" stroke="#2d8f8b" stroke-width="2"/>
+      <text x="38" y="42" fill="#7ee8e1">FORGE MODE</text>
+      <rect x="148" y="31" width="105" height="13" fill="#0d333c"/>
+      <rect x="151" y="34" width="78" height="7" fill="#ff7849">
+        <animate attributeName="width" values="56;96;78;56" dur="5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="38" y="57" fill="#8bbab8">LV. 22  /  CURIOSITY ∞</text>
+
+      <path d="M1020 20h238v44h-250V32z" fill="#061923" stroke="#2d8f8b" stroke-width="2"/>
+      <circle cx="1031" cy="42" r="4" fill="#7ee8e1" filter="url(#tinyGlow)">
+        <animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1044" y="46" fill="#d9fff7">STATUS: EXPLORING</text>
+    </g>
+
+    <!-- compact discipline legend -->
+    <g transform="translate(0 318)" font-family="monospace" text-anchor="middle">
+      <rect width="1280" height="42" fill="#061923" opacity="0.94"/>
+      <g fill="#8adbd4" font-size="11" font-weight="700" letter-spacing="1">
+        <text x="116" y="26">01 ARCHITECTURE</text><text x="326" y="26">02 DESIGN</text>
+        <text x="520" y="26">03 MAKING</text><text x="716" y="26">04 DATA</text>
+        <text x="900" y="26">05 AI SYSTEMS</text><text x="1135" y="26">06 COMPLEX SYSTEMS</text>
+      </g>
+      <g fill="#ff7849"><rect x="38" y="12" width="8" height="8"/><rect x="266" y="12" width="8" height="8"/><rect x="452" y="12" width="8" height="8"/><rect x="658" y="12" width="8" height="8"/><rect x="817" y="12" width="8" height="8"/><rect x="1029" y="12" width="8" height="8"/></g>
+    </g>
+
+    <rect width="1280" height="360" fill="url(#scanlines)" pointer-events="none"/>
+    <rect x="1.5" y="1.5" width="1277" height="357" rx="17" fill="none" stroke="#50c9bf" stroke-width="3" opacity="0.62"/>
+  </g>
+</svg>
