@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./profile-banner.svg" alt="VectorForge22 — build across disciplines" width="100%" />
+</div>
+
 ### Hello and welcome to my repo!
 
 My Path:  
