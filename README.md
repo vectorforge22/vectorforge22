@@ -54,8 +54,8 @@ I am always eager to connect with fellow builders, engineers, data enthusiasts, 
 
 ---
 
-[![Top Langs](https://github-readme-stats-five-gules-60.vercel.app/api/top-langs/?username=vectorforge22&layout=compact&hide=jupyter%20notebook,html,css,tex&theme=dracula)](https://github.com/anuraghazra/github-readme-stats) \
-<sup>*excludes Jupyter Notebooks, HTML, CSS and TeX.</sup>
+[![Top Langs](https://github-readme-stats-five-gules-60.vercel.app/api/top-langs/?username=vectorforge22&layout=compact&hide=jupyter%20notebook,html,css,tex,powershell&theme=dracula)](https://github.com/anuraghazra/github-readme-stats) \
+<sup>*excludes Jupyter Notebooks, HTML, CSS, Powershell and TeX.</sup>
 
 <!--
 ### Hi there 👋
