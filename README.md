@@ -16,9 +16,8 @@ And yes, I am taking an **![MSDS](https://img.shields.io/badge/MSDS-lightgreen),
 For those familiar with older university disciplines — Data Science brings together areas that were traditionally studied separately: ![Statistics](https://img.shields.io/badge/Statistics-blue) ![Econometrics](https://img.shields.io/badge/Econometrics-green) ![Computer Science](https://img.shields.io/badge/Computer%20Science-orange) ![Machine Learning/AI](https://img.shields.io/badge/Machine%20Learning%2FAI-purple)
 
 ---
-
-
-
+Not interested in enrolling to any STUD courses.
+---
 
 Currently exploring and building:
 
