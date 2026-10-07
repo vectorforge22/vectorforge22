@@ -17,6 +17,7 @@ For those familiar with older university disciplines — Data Science brings tog
 
 ---
 Not interested in enrolling to any STUD courses.
+Watch this: [I Went Back to Coding School. AI Already Won.](https://www.youtube.com/watch?v=HvDuaO_PtPs&t=1s)
 ---
 
 Currently exploring and building:
