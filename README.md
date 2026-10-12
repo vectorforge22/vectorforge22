@@ -2,6 +2,7 @@
   <img src="./profile-banner.svg" alt="VectorForge22 — build across disciplines" width="100%" />
 </div>
 
+---
 
 ![Architecture](https://img.shields.io/badge/Architecture-e0f2fe) → ![Design](https://img.shields.io/badge/Design-baE6fd) → ![3D Printing](https://img.shields.io/badge/3D%20Printing-7dd3fc) → ![Manufacturing](https://img.shields.io/badge/Manufacturing-38bdf8) → ![Data Science](https://img.shields.io/badge/Data%20Science-0284c7) → ![AI Systems](https://img.shields.io/badge/AI%20Systems-0369a1) → ![Complex Systems Engineering & Architecture](https://img.shields.io/badge/Complex%20Systems%20Engineering%20%26%20Architecture-0c4a6e)
 
