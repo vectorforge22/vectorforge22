@@ -2,18 +2,14 @@
   <img src="./profile-banner.svg" alt="VectorForge22 — build across disciplines" width="100%" />
 </div>
 
-### Hello and welcome to my repo!
 
-My Path:  
 ![Architecture](https://img.shields.io/badge/Architecture-e0f2fe) → ![Design](https://img.shields.io/badge/Design-baE6fd) → ![3D Printing](https://img.shields.io/badge/3D%20Printing-7dd3fc) → ![Manufacturing](https://img.shields.io/badge/Manufacturing-38bdf8) → ![Data Science](https://img.shields.io/badge/Data%20Science-0284c7) → ![AI Systems](https://img.shields.io/badge/AI%20Systems-0369a1) → ![Complex Systems Engineering & Architecture](https://img.shields.io/badge/Complex%20Systems%20Engineering%20%26%20Architecture-0c4a6e)
 
 ---
 
-I enjoy going head-first into complex projects — learning the required tools, building systems, and connecting ideas across different fields.
+Currently taking **![MSDS](https://img.shields.io/badge/MSDS-lightgreen), not an ![MSCS](https://img.shields.io/badge/MSCS-lightblue)**. Fulfilling my dreams of finally being able to customize software to how I use it.
 
-And yes, I am taking an **![MSDS](https://img.shields.io/badge/MSDS-lightgreen), not an ![MSCS](https://img.shields.io/badge/MSCS-lightblue)**. My focus is not just writing code faster. My focus is understanding problems, working with data, designing AI systems, and turning technology into practical decisions, products, and workflows.
-
-For those familiar with older university disciplines — Data Science brings together areas that were traditionally studied separately: ![Statistics](https://img.shields.io/badge/Statistics-blue) ![Econometrics](https://img.shields.io/badge/Econometrics-green) ![Computer Science](https://img.shields.io/badge/Computer%20Science-orange) ![Machine Learning/AI](https://img.shields.io/badge/Machine%20Learning%2FAI-purple)
+Data Science brings together areas that were traditionally studied separately: ![Statistics](https://img.shields.io/badge/Statistics-blue) ![Econometrics](https://img.shields.io/badge/Econometrics-green) ![Computer Science](https://img.shields.io/badge/Computer%20Science-orange) ![Machine Learning/AI](https://img.shields.io/badge/Machine%20Learning%2FAI-purple)
 
 ---
 Watch this: [I Went Back to Coding School. AI Already Won.](https://www.youtube.com/watch?v=HvDuaO_PtPs&t=1s)
@@ -21,7 +17,6 @@ Watch this: [I Went Back to Coding School. AI Already Won.](https://www.youtube.
 ---
 
 Currently exploring and building:
-
 1. **Local AI & Large Language Model Systems**
    - Running and experimenting with local LLMs
    - AI agents, automation workflows, and knowledge systems
@@ -30,12 +25,12 @@ Currently exploring and building:
    - ComfyUI workflows
    - AI-assisted video & illustration pipelines
 
-3. **Data Science & Machine Learning Projects**
+3. **Data Science & ML Projects**
    - Data-driven decision systems
    - Statistical analysis
 
-4. **Data Engineering & Analytics**
-   - Big Data pipelines
+4. **Big Data, Data Engineering & Analytics**
+   - Cloud & On-Prem pipelines
    - Data processing workflows
 
 5. **Web Applications & Automation**
@@ -45,8 +40,6 @@ Currently exploring and building:
 6. **Hardware & Engineering Experiments**
    - Embedded systems
    - IoT, Electronics and maker projects
-
-I am always eager to connect with fellow builders, engineers, data enthusiasts, and AI explorers. Feel free to explore my projects and reach out for discussions, feedback, or collaboration.
 
 ### 📚 [My Book List](https://github.com/jbgithub22/my-book-list/tree/main)
 
